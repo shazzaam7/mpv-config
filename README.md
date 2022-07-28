@@ -67,6 +67,13 @@ After following the steps above, your mpv folder should look like this (Windows 
 * [seek-to.lua](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/seek-to.lua) —
   [source](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua)\
   Seek to an absolute timestamp specified via keyboard input or pasted from clipboard.
+
+## Shaders
+
+The shaders included in the `shaders` folder:
+
+* [Anime4K v4.0.1 Stable] — [source](https://github.com/bloc97/Anime4K)\
+  Used for upscaling anime.
   
 ## Useful Links
 
