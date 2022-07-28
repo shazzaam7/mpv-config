@@ -52,37 +52,37 @@ After following the steps above, your mpv folder should look like this (Windows 
 ```
 
 ## Scripts
-* [autoload.lua](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/autoload.lua) —
-  [source](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)\
+* [Autoload](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/autoload.lua) —
+  [Source](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)\
   Automatically load playlist entries before and after the currently playing file, by scanning the directory.
   
-* [cycle-profile.lua](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/cycle-profile.lua) —
-  [source](https://github.com/CogentRedTester/mpv-scripts#cycle-profile)\
+* [Cycle Profile](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/cycle-profile.lua) —
+  [Source](https://github.com/CogentRedTester/mpv-scripts#cycle-profile)\
   Cycles through a list of profiles sent via a script message and prints the profile-desc to the OSD. More details at the top of the file.
   
-* [mordenx.lua](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/mordenx.lua) —
-  [source](https://github.com/cyl0/mpv-osc-morden-x)\
+* [ModernX](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/mordenx.lua) —
+  [Source](https://github.com/cyl0/mpv-osc-morden-x)\
   A modern OSC UI replacement for MPV that retains the functionality of the default OSC.
   
-* [seek-to.lua](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/seek-to.lua) —
-  [source](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua)\
+* [Seek To](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/seek-to.lua) —
+  [Source](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua)\
   Seek to an absolute timestamp specified via keyboard input or pasted from clipboard.
 
 ## Shaders
 
 The shaders included in the `shaders` folder:
 
-* [Anime4K v4.0.1 Stable] — [source](https://github.com/bloc97/Anime4K)\
+* [Anime4K v4.0.1 Stable](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/Anime4K) — [Source](https://github.com/bloc97/Anime4K)\
   Used for upscaling anime.
   
 ## Useful Links
 
-* [mpv manual](https://mpv.io/manual/master/)\
+* [MPV Manual](https://mpv.io/manual/master/)\
   Extremely useful for knowing what certain options do and what to put in `mpv.conf`
-* [mpv User Scripts](https://github.com/mpv-player/mpv/wiki/User-Scripts)\
+* [MPV User Scripts](https://github.com/mpv-player/mpv/wiki/User-Scripts)\
   Compilation of useful community-published scripts to be used with mpv
 * [mpv.conf guide](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/) by iamscum
-* [mpv Configuration Guide for Watching Videos](https://kokomins.wordpress.com/2019/10/14/mpv-config-guide/) by Kokomins
+* [MPV Configuration Guide for Watching Videos](https://kokomins.wordpress.com/2019/10/14/mpv-config-guide/) by Kokomins
 * [Noelsimbolon's repo for his MPV configuration](https://github.com/noelsimbolon/mpv-config)
   Nice documentation of his configuration and repository. Can learn a lot for making your own repository about your MPV configuration
 
