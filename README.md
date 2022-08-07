@@ -73,8 +73,13 @@ After following the steps above, your mpv folder should look like this (Windows 
 The shaders included in the `shaders` folder:
 
 * [Anime4K v4.0.1 Stable](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/Anime4K) — [Source](https://github.com/bloc97/Anime4K)\
-  Used for upscaling anime.
-  
+  Used for upscaling anime. (CTRL + [1-6] To change Anime4K [modes](https://github.com/bloc97/Anime4K/blob/815b122284304e6e1e244a8cf6a160eeaa07040c/GLSL_Instructions.md#modes))
+
+* [ACNetGLSL] - [Source](https://github.com/TianZerL/ACNetGLSL)
+  Another upscaler. Alternative to Anime4K. I only used the default one because it looked the best in my testing.
+
+* [AMDFSR]
+
 ## Useful Links
 
 * [MPV Manual](https://mpv.io/manual/master/)\
