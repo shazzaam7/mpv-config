@@ -42,6 +42,21 @@ After following the steps above, your mpv folder should look like this (Windows 
 │   │   ├── mordenx.lua                       # Script for modern UI
 │   │   └── seek-to.lua                       # Script that allows to seek to an absolute position in the current video by typing its timestamp.
 │   │
+|   ├── shaders
+│   │   ├── ACNet
+│   │   │   └── ACNet.glsl
+│   │   ├── AMD
+│   │   │   ├── CAS.glsl
+│   │   │   ├── CAS-scaled.glsl
+│   │   │   └── FSR.glsl
+│   │   ├── Anime4k (All of the files glsl's from the repository)
+│   │   ├── FSRCNNX
+│   │   │   └── FSRCNNX_x2_8-0-4-1.glsl
+│   │   ├── Krig
+│   │   │   └── KrigBilateral.glsl
+│   │   └── SSim
+│   │   │   └── SSimDownscaler.glsl
+│   │
 │   ├── input.conf                            # Keybinding configuration
 │   └── mpv.conf                              # MPV's main configuration file
 │
@@ -63,6 +78,8 @@ After following the steps above, your mpv folder should look like this (Windows 
 * [ModernX](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/mordenx.lua) —
   [Source](https://github.com/cyl0/mpv-osc-morden-x)\
   A modern OSC UI replacement for MPV that retains the functionality of the default OSC.
+
+* [MPV-webm](https://github.com/ekisu/mpv-webm) — [Source](https://github.com/ekisu/mpv-webm)
   
 * [Seek To](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/seek-to.lua) —
   [Source](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua)\
