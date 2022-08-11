@@ -79,7 +79,8 @@ After following the steps above, your mpv folder should look like this (Windows 
   [Source](https://github.com/cyl0/mpv-osc-morden-x)\
   A modern OSC UI replacement for MPV that retains the functionality of the default OSC.
 
-* [MPV-webm](https://github.com/ekisu/mpv-webm) — [Source](https://github.com/ekisu/mpv-webm)
+* [MPV-webm](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/webm.lua) — [Source](https://github.com/ekisu/mpv-webm)\
+  Quick and easy way of creating clips from TV Shows, Anime, Movies etc.
   
 * [Seek To](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/seek-to.lua) —
   [Source](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua)\
@@ -91,23 +92,23 @@ The shaders included in the `shaders` folder:
 
 * [Anime4K v4.0.1 Stable](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/Anime4K) — [Source](https://github.com/bloc97/Anime4K)\
   Used for upscaling anime. (CTRL + [1-6] To change Anime4K [modes](https://github.com/bloc97/Anime4K/blob/815b122284304e6e1e244a8cf6a160eeaa07040c/GLSL_Instructions.md#modes))
-
-* [ACNetGLSL](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/ACNet) - [Source](https://github.com/TianZerL/ACNetGLSL)
+  
+* [ACNetGLS](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/ACNet) — [Source](https://github.com/TianZerL/ACNetGLSL)\
   Another upscaler. Alternative to Anime4K. I only used the default one because it looked the best in my testing.
-
-* [AMDFSR](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/AMD) - [Source](https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5)
+  
+* [AMDFSR](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/AMD) — [Source](https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5)\
   AMD FidelityFX Super Resolution. Enabled by default. Edited Line 38 from 1.0 to 0.5.
 
-* [AMDCAS](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/AMD) - [Source](https://gist.github.com/agyild/bbb4e58298b2f86aa24da3032a0d2ee6)
+* [AMDCAS](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/AMD) — [Source](https://gist.github.com/agyild/bbb4e58298b2f86aa24da3032a0d2ee6)\
   AMD FidelityFX Contrast Adaptive Sharpening. Enabled by default alongside FSR.
-
-* [FSRCNNX](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/FSRCNNX) - [Source](https://github.com/igv/FSRCNN-TensorFlow)
+  
+* [FSRCNNX](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/FSRCNNX) — [Source](https://github.com/igv/FSRCNN-TensorFlow)\
   Used for luma upscaling.
 
-* [KrigBilateral](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/Krig) - [Source](https://gist.github.com/igv/a015fc885d5c22e6891820ad89555637)
+* [KrigBilateral](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/Krig) — [Source](https://gist.github.com/igv/a015fc885d5c22e6891820ad89555637)\
   Used for chroma upscaling and downscaling. Enabled by default alongside FSR and CAS.
   
-* [SSimDownscaler](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/SSim) - [Source](https://gist.github.com/igv/36508af3ffc84410fe39761d6969be10)
+* [SSimDownscaler](https://github.com/shazzaam7/mpv-config/tree/windows/shaders/SSim) — [Source](https://gist.github.com/igv/36508af3ffc84410fe39761d6969be10)\
   Used for luma downscaling.
   
 ## Useful Links
