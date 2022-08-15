@@ -14,6 +14,9 @@ Here are the steps to install mpv and to use my configuration files on Windows:
 * Download the latest 64bit mpv Windows build by shinchiro from [mpv.io/installation](https://mpv.io/installation/) and extract it wherever you please. This is now your mpv folder
 * Run `mpv-install.bat` as administrator, which is located in `installer` folder
 * To download this configuration, press `CODE`, then `Download ZIP`. (Might add zip in release tab) Extract it and put it next to mpv.exe in a folder called `portable_config`
+* To make some scripts work, you need to modify them for your installation:
+  * For `MPV-Discord` script to work, open `discord.conf`, which is located in `portable_config/script-opts` folder and specify `binary_path` which is a full path to `mpv-discord.exe` (It's needed to make the script work otherwise bad things can happen like MPV not willing to open etc.). For Example `binary_path=C:\mpv\portable_config\discord.exe`. Make sure you're not using any quotation marks before and after the path.
+
 
 After following the steps above, your mpv folder should look like this (Windows only for now):
 
@@ -36,11 +39,16 @@ After following the steps above, your mpv folder should look like this (Windows 
 │   ├── fonts
 │   │   └── Material-Design-Iconic-Font.ttf   # Buttons and etc. for ModernX Script to Work
 │   │
+│   ├── scripts-opts
+│   │   └── discord.conf                      # MPV-Discord configuration file
+│   │
 │   ├── scripts
 │   │   ├── autoload.lua                      # Script to automatically load a video after the first one ends
 │   │   ├── cycle-profile.lua                 # Cycle through profiles (For future because I plan to make multiple profiles)
+│   │   ├── discord.lua                       # Script to show your activity on Discord 
 │   │   ├── mordenx.lua                       # Script for modern UI
-│   │   └── seek-to.lua                       # Script that allows to seek to an absolute position in the current video by typing its timestamp.
+│   │   ├── seek-to.lua                       # Script that allows to seek to an absolute position in the current video by typing its timestamp.
+│   │   └── webm.lua                          # Script to make clips from your favourite shows you're watching
 │   │
 |   ├── shaders
 │   │   ├── ACNet
@@ -55,10 +63,12 @@ After following the steps above, your mpv folder should look like this (Windows 
 │   │   ├── Krig
 │   │   │   └── KrigBilateral.glsl
 │   │   └── SSim
-│   │   │   └── SSimDownscaler.glsl
+│   │       └── SSimDownscaler.glsl
 │   │
+│   ├── discord.exe                           # Used by MPV-Discord script
 │   ├── input.conf                            # Keybinding configuration
-│   └── mpv.conf                              # MPV's main configuration file
+│   ├── mpv.conf                              # MPV's main configuration file
+│   └── profiles.conf                         # Holds all of the different profiles and presets
 │
 ├── d3dcompiler_43.dll
 ├── mpv.com
@@ -81,6 +91,9 @@ After following the steps above, your mpv folder should look like this (Windows 
 
 * [MPV-webm](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/webm.lua) — [Source](https://github.com/ekisu/mpv-webm)\
   Quick and easy way of creating clips from TV Shows, Anime, Movies etc.
+
+* [MPV-discord](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/discord.lua) — [Source](https://github.com/tnychn/mpv-discord)\
+  Easy way to show what you're watching to your friends on Discord.
   
 * [Seek To](https://github.com/shazzaam7/mpv-config/blob/windows/scripts/seek-to.lua) —
   [Source](https://github.com/dexeonify/mpv-config/blob/main/scripts/seek-to.lua)\
